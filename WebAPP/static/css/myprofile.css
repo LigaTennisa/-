@@ -9,7 +9,6 @@
 
 body{
     overflow: auto; 
-    margin: 0;
     width: 100%;
 	background-color: white;
 }
@@ -17,7 +16,6 @@ body{
 #page {
     clear:both;
     width: 90%;
-    margin: 0 auto;
 }
 
 .h1 {
@@ -35,7 +33,8 @@ body{
 }
 
 #top-container img{ 
-    position: absolute;
+    display: inline-block;
+    position: relative;
 	border-radius: 10px;
 	border: 2px solid #e3f0e9;
     text-align: center;
@@ -113,24 +112,25 @@ h3 {
 
 @media (min-width: 1450px){
     .h1 {
-        transform: translate(0%, 8vw);
+        transform: translate(0, 7vw);
     }
 
     #top-container img{ 
-        transform: translate(-20%, 10vw);
+        transform: translate(3vw, 10vw);
         width: 250px;
+        margin-top: 20px;
     }
 
     #top-container p{ 
         font-size: 25px;
-        transform: translate(-17%, 30vw);
+        transform: translate(3vw , 13vw);
         white-space: nowrap; /* в одну строчку */
     }
 
     #top-container a {
         white-space: nowrap; /* в одну строчку */
         font-size: 25px;
-        transform: translate(-17%, 31vw);
+        transform: translate(3vw , 13vw);
     }
 
     h3 {
@@ -148,20 +148,20 @@ h3 {
     }
 
     #top-container img{ 
-        transform: translate(-20%, 10vw);
+        transform: translate(3vw, 15vw);
         width: 200px;
     }
 
     #top-container p{ 
         font-size: 25px;
-        transform: translate(-17%, 28vw);
+        transform: translate(3vw , 18vw);
         white-space: nowrap; /* в одну строчку */
     }
 
     #top-container a {
         white-space: nowrap; /* в одну строчку */
         font-size: 25px;
-        transform: translate(-17%, 29vw);
+        transform: translate(3vw , 18vw);
     }
 
     h3 {
@@ -179,20 +179,20 @@ h3 {
     }
 
     #top-container img{ 
-        transform: translate(-20%, 14vw);
+        transform: translate(3vw, 18vw);
         width: 200px;
     }
 
     #top-container p{ 
         font-size: 25px;
-        transform: translate(-17%, 32vw);
+        transform: translate(3vw , 21vw);
         white-space: nowrap; 
     }
 
     #top-container a {
         white-space: nowrap; 
         font-size: 25px;
-        transform: translate(-17%, 33vw);
+        transform: translate(3vw , 21vw);
     }
 
     h3 {
@@ -206,24 +206,24 @@ h3 {
 
 @media (min-width:992px) and (max-width:1169px) {
     .h1 {
-        transform: translate(0%, 16vw);
+        transform: translate(0%, 13vw);
     }
 
     #top-container img{ 
-        transform: translate(-20%, 18vw);
+        transform: translate(3vw , 21vw);
         width: 200px;
     }
 
     #top-container p{ 
         font-size: 25px;
-        transform: translate(-17%, 39vw);
+        transform: translate(3vw , 24vw);
         white-space: nowrap; 
     }
 
     #top-container a {
         white-space: nowrap; 
         font-size: 25px;
-        transform: translate(-17%, 40vw);
+        transform: translate(3vw , 24vw);
     }
 
     h3 {
@@ -237,22 +237,22 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .h1 {
-        transform: translate(0%, 25vw);
+        transform: translate(0%, 15vw);
     }
 
     #top-container img{ 
-        transform: translate(-20%, 30vw);
+        transform: translate(3vw , 24vw);
         width: 150px;
     }
 
     #top-container p{ 
         font-size: 20px;
-        transform: translate(-17%, 50vw);
+        transform: translate(3vw , 27vw);
     }
 
     #top-container a {
         font-size: 20px;
-        transform: translate(-17%, 51vw);
+        transform: translate(3vw , 27vw);
     }
 
     h3 {
@@ -270,18 +270,18 @@ h3 {
     }
 
     #top-container img{ 
-        transform: translate(-20%, 32vw);
+        transform: translate(3vw , 27vw);
         width: 100px;
     }
 
     #top-container p{ 
         font-size: 18px;
-        transform: translate(-17%, 53vw);
+        transform: translate(3vw , 30vw);
     }
 
     #top-container a {
         font-size: 18px;
-        transform: translate(-17%, 54vw);
+        transform: translate(3vw , 30vw);
     }
 
     h3 {
@@ -295,17 +295,17 @@ h3 {
  
 @media (max-width: 480px) {
     .h1 {
-        transform: translate(0%, 31vw);
+        transform: translate(3vw , 30vw);
     }
 
     #top-container img{ 
-        transform: translate(-20%, 30vw);
+        transform: translate(3vw , 33vw);
         width: 50px;
     }
 
     #top-container p{ 
         font-size: 16px;
-        transform: translate(-17%, 190%);
+        transform: translate(3vw , 33vw);
     }
 
     #top-container a {

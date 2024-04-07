@@ -156,3 +156,6 @@ def user_profile(request, user_id):
     user = User.objects.get(id=user_id)
     # Здесь вы можете добавить логику для отображения профиля пользователя
     return render(request, 'blog/user_profile.html', {'user': user})
+
+def pravila(request):
+    return render(request, "blog/pravila.html")
